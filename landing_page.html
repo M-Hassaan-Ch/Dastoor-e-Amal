@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>دستورِ عمل</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Audiowide"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      .section {
+        min-height: 100vh;
+        color: white;
+        padding: 2rem 0;
+      }
+
+      .section1 {
+        background: radial-gradient(circle, #454343, #000000);
+        padding-top: 0;
+      }
+
+      .navbar {
+        background-color: rgba(0, 0, 0, 0.224) !important;
+        font-family: "Audiowide";
+        font-size: 24px;
+      }
+
+      .navbar-nav .nav-link {
+        color: white !important;
+        padding: 1rem !important;
+        margin: 0 1rem;
+        border-radius: 20px;
+      }
+
+      .navbar-nav .nav-link:hover {
+        color: #636465 !important;
+      }
+
+      .heading {
+        font-size: 10rem;
+        margin-top: 115px;
+        font-weight: bold;
+        font-family: "Audiowide";
+        text-align: center;
+      }
+
+      .content-section {
+        background-color: #b4abab;
+        color: black;
+      }
+
+      .content-section:nth-child(odd) {
+        background-color: #3f3d3d;
+        color: white;
+      }
+
+      .text-content {
+        font-family: "Audiowide";
+        padding: 2rem;
+      }
+
+      .text-content h2 {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 1rem;
+      }
+
+      .text-content p {
+        font-size: 1.2rem;
+      }
+
+      .image-content img {
+        max-width: 100%;
+        border-radius: 30px;
+        padding: 1rem;
+      }
+
+      .section6 {
+        background-color: #cfc3c3;
+        color: black;
+        align-items: center;
+        justify-items: center;
+        padding-top: 10%;
+        padding-bottom: 10%;
+      }
+
+      .section7 {
+        background-color: #1d1c1c;
+        min-height: 50vh;
+      }
+
+      .footer-column {
+        padding: 2rem;
+        justify-items: center;
+      }
+
+      .footer-column h3 {
+        font-size: 1.25rem;
+        margin-bottom: 1rem;
+        font-weight: bold;
+      }
+
+      .footer-column a {
+        text-decoration: none;
+        color: #ccc;
+        display: block;
+        margin: 0.5rem 0;
+        font-size: 0.875rem;
+      }
+
+      .footer-column a:hover {
+        color: white;
+      }
+
+      @media (max-width: 768px) {
+        .order-switch {
+          flex-direction: column-reverse;
+        }
+      }
+      @media (min-width: 768px) {
+        .section6 {
+          padding-top: 8%;
+          padding-bottom: 8%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid p-0">
+      <section class="section section1">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <div class="container">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse justify-content-center"
+              id="navbarNav"
+            >
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#news">Log In</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Dashboard</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <div class="container">
+          <h1 class="heading">دستورِ عمل</h1>
+        </div>
+      </section>
+
+      <section class="section content-section">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-6">
+              <div class="text-content">
+                <h2>List Down Your Daily Tasks</h2>
+                <p>
+                  Make a list of all your chores and tasks for the day and keep
+                  track by crossing off activities you have completed!
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="image-content">
+                <img
+                  src="2.jpg"
+                  alt="Confluence task management"
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section content-section">
+        <div class="container">
+          <div class="row align-items-center order-switch">
+            <div class="col-md-6">
+              <div class="image-content">
+                <img
+                  src="3.jpg"
+                  alt="Confluence task management"
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="text-content">
+                <h2>Keep A Journal</h2>
+                <p>
+                  Record your ideas, daily experiences, and future plans in a
+                  journal.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section content-section">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-6">
+              <div class="text-content">
+                <h2>Track Your Life</h2>
+                <p>
+                  Through the life calendar, track the number of days you have
+                  spent on mother earth and days yet to be explored. Set
+                  long-term goals and work hard to achieve them!
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="image-content">
+                <img
+                  src="4.jpg"
+                  alt="Confluence task management"
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section content-section">
+        <div class="container">
+          <div class="row align-items-center order-switch">
+            <div class="col-md-6">
+              <div class="image-content">
+                <img
+                  src="6.jpg"
+                  alt="Confluence task management"
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="text-content">
+                <h2>Set A Daily Routine</h2>
+                <p>
+                  Use the clock to set a daily routine and get reminders to help
+                  you stay consistent.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section6">
+        <div class="text-content section6 text-center">
+          <h2>Learning Is The Key</h2>
+          <p>
+            Use the learning dashboard which is designed to facilitate you in
+            every way to learn a particular skill. Create a course outline, add
+            links to youtube tutorials and courses, set daily goals, upload
+            helpful material and Learn Away!
+          </p>
+        </div>
+      </section>
+
+      <section class="section section7">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="footer-column">
+                <h3>Company</h3>
+                <a href="#">About</a>
+                <a href="#">Careers</a>
+                <a href="#">Press</a>
+                <a href="#">Blog</a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="footer-column">
+                <h3>Social Media</h3>
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">Reddit</a>
+                <a href="#">Youtube</a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="footer-column">
+                <h3>Help</h3>
+                <a href="#">FAQ</a>
+                <a href="#">Contact Us</a>
+                <a href="#">Privacy Policy</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
